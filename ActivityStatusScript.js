@@ -6,7 +6,6 @@ client.setInterval(() => {
 		client.user.setActivity(text, { type: activity.type });
 	}, 60000);
 
-	// Set up meme poster interval
 	if (client.memePoster) {
 		client.setInterval(async () => {
 			try {
